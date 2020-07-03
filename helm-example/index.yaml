@@ -3,7 +3,7 @@ entries:
   cortex:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-02T19:35:15.659758-07:00"
+    created: "2020-07-02T19:54:07.699495-07:00"
     dependencies:
     - alias: memcached-chunk
       condition: memcached-chunk.enabled
@@ -45,6 +45,6 @@ entries:
     name: cortex
     type: application
     urls:
-    - http://qinxx108.github.io/cortexHelm/cortex-0.1.0.tgz
+    - https://qinxx108.github.io/cortexHelm/cortex-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-02T19:35:15.652801-07:00"
+generated: "2020-07-02T19:54:07.694685-07:00"
