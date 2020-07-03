@@ -1,0 +1,50 @@
+apiVersion: v1
+entries:
+  cortex:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-02T19:35:15.659758-07:00"
+    dependencies:
+    - alias: memcached-chunk
+      condition: memcached-chunk.enabled
+      name: memcached
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.2.3
+    - alias: memcached-index-read
+      condition: memcached-index-read.enabled
+      name: memcached
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.2.3
+    - alias: memcached-index-write
+      condition: memcached-index-write.enabled
+      name: memcached
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.2.3
+    - alias: memcached-query-result
+      condition: memcached-query-result.enabled
+      name: memcached
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.2.3
+    - alias: memcached-tsdb-chunk
+      condition: memcached-tsdb-chunk.enabled
+      name: memcached
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.2.3
+    - alias: memcached-tsdb-index
+      condition: memcached-tsdb-index.enabled
+      name: memcached
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.2.3
+    - alias: memcached-tsdb-meta
+      condition: memcached-tsdb-meta.enabled
+      name: memcached
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 3.2.3
+    description: Helm chart for cortex
+    digest: dd63bb7dd78cd8bd4c0568dbfe8ea936a618810530bde29a2d3dff3dc43a05d0
+    name: cortex
+    type: application
+    urls:
+    - http://qinxx108.github.io/cortexHelm/cortex-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-02T19:35:15.652801-07:00"
