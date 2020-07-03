@@ -45,6 +45,6 @@ entries:
     name: cortex
     type: application
     urls:
-    - https://qinxx108.github.io/cortexHelm/cortex-0.1.0.tgz
+    - https://qinxx108.github.io/cortexHelm/helm-example/cortex-0.1.0.tgz
     version: 0.1.0
 generated: "2020-07-02T19:54:07.694685-07:00"
